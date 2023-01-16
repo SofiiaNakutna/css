@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Roboto:wght@300&display=swap');
 *
 {
     margin: 0;
@@ -10,47 +11,75 @@
     --title-color:#000;
     font-size: 20px;
 }
+body{
+    background-color: rgb(200, 255, 250);
+}
     h1{
     color: var(--title-color);
     font-size: 2.0rem;
+    margin: auto;
+    padding-top: 0%;
+    text-align: center;
 }
 h2{
     color: var(--title-color);
     font-size:x-large;
+    margin: auto;
+    text-align: center;
 }
 p{
     color:#808080;
     font: size 0.82em;
-}
+    margin: auto;
+    text-align: center;
+    }
 ul{ 
     border: #000;
     border-width: 1px;
     border-radius: 1px;
     border-style:solid;
+    text-align: center;
+    margin: 5px;
+    padding: 2px;
 }
 .silver-background{
-    background-color: #d6d4d4;
+    background-color:#a7e0ee;
+    margin: 40px;
 }
 h3{
     color: var(--title-color);
+    margin: 10px;
+    text-align: center;
 }
 h4{
     color: var(--title-color);
-}
+    font-size: 28px;
+    margin:30px;
+    }
 .separator{
     width: 1000px;
     height: 2px;
     border: 2px solid #0000ff;
-    margin: auto;
+    margin: 20px;
+}
 h5{
     color: var(--title-color);
+    font-size: 28px;
+    margin:30px;
+    }
+ol{
+    font-family: 'Roboto', sans-serif;
 }
 h6{
     color: var(--title-color);
-}
-h3:hover{
-    text-decoration: underline;
+    font-size: 28px;
+    margin:30px;
 }
 h1::first-letter{
     font-size: 3rem;
+}
+button{
+    background-color:#a7e0ee;
+    text-decoration-color: var(--title-color);
+    margin:10px;
 }
